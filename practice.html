@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice German Verbs</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>Practice German Verbs</h1>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="practice.html">Practice</a>
+            <a href="../grammar/grammar.html">Grammar</a>
+        </nav>
+    </header>
+
+    <section>
+        <label for="practice-level">Choose Level:</label>
+        <select id="practice-level">
+            <option value="a1">A1</option>
+            <option value="a2">A2</option>
+            <option value="b1">B1</option>
+            <option value="b2">B2</option>
+            <option value="c1">C1</option>
+        </select>
+    </section>
+
+    <section id="exercise-container">
+        <button id="new-exercise">Generate Exercise</button>
+        <div id="exercise-box" style="margin-top: 1rem;"></div>
+        <input type="text" id="answer-input" placeholder="Type your answer">
+        <button id="check-answer">Check Answer</button>
+        <p id="feedback"></p>
+    </section>
+
+    <script type="module" src="../practice/practice.js"></script>
+</body>
+</html>
